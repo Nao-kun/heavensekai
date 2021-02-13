@@ -20,7 +20,7 @@ body {
 }
 
 #header h1 {
-    color:rgb(204, 0, 0);
+    color: #bb0019;
     text-shadow: 2px 2px black;
     text-align: center;
     font-size: 40px;
@@ -83,7 +83,7 @@ body {
 }
 
 #article p {
-    color:rgb(189, 91, 91);
+    color:rgb(218, 47, 47);
     margin: auto;
     text-align: center;
 }
