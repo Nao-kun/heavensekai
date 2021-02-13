@@ -20,16 +20,16 @@ body {
 }
 
 #header h1 {
-    color: #990000;
-    text-shadow: 2px 2px black;
+    color: darkred;
+    text-shadow: 3px 3px black;
     text-align: center;
     font-size: 40px;
     margin-top: -10px;
 }
 
 #header h2 {
-    color:rgb(218, 47, 47);
-    text-shadow: 1px 1px black;
+    color:firebrick;
+    text-shadow: 2px 2px black;
     text-align: center;
     margin-top: -40px;
 }
@@ -50,7 +50,7 @@ body {
 #menu li a {
     display: block;
     background: rgba(0, 0, 0, 0.801);
-    color: #990000;
+    color: darkred;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
@@ -61,7 +61,7 @@ body {
 }
 
 #menu li a:hover {
-    background:#990000;
+    background:darkred;
     color: #ffffff;
 }
 
@@ -83,8 +83,8 @@ body {
 }
 
 #article p {
-    color:rgb(218, 47, 47);
-    text-shadow: 1px 1px black;
+    color:firebrick;
+    text-shadow: 2px 2px black;
     margin: auto;
     margin-bottom: 20px;
     text-align: center;
