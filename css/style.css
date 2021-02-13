@@ -5,7 +5,7 @@ html {
 
 /* Body */
 body {
-    background:url("../img/background.png") #000000 left -50px fixed no-repeat;
+    background:url("../img/background.png") black left -50px fixed no-repeat;
     background-size: 100%;
     margin: 0px;
     font-family:'Oswald', sans-serif;
@@ -62,7 +62,7 @@ body {
 
 #menu li a:hover {
     background:darkred;
-    color: #ffffff;
+    color: white;
 }
 
 #left {
