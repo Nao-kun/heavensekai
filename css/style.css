@@ -91,7 +91,7 @@ body {
     width: 600px;
 }
 
-#article video {
+#article iframe {
     width: 70%;
     position: relative;
     left: 120px;
