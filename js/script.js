@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("li").click(function(){
+        if($("li").hasClass("active")){
+            $("li").removeClass("active");
+        }
+        else{
+            $(this).addClass("active");
+        }
+    });
+});   

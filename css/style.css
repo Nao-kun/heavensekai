@@ -1,0 +1,107 @@
+/* Html */
+html {
+    height: 100%;
+}
+
+/* Body */
+body {
+    background:url("../img/background.png") #000000 left -50px fixed no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    font-family:'Oswald', sans-serif;
+    height: 100%;
+}
+
+/* Header */
+#header {
+    background: #000000a1;
+    padding: 30px;
+    margin: auto;
+}
+
+#header h1 {
+    color:rgb(204, 0, 0);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+#header h2 {
+    color:rgb(218, 47, 47);
+    text-shadow: 1px 1px black;
+    text-align: center;
+    margin-top: -40px;
+}
+
+/* Menu */
+#menu {
+    margin: auto;
+    margin-top: 40px;
+    width: 900px;
+}
+
+#menu li {
+    float: left;
+    width: 120px;
+    list-style-type: none;
+}
+
+#menu li a {
+    display: block;
+    background: rgba(0, 0, 0, 0.801);
+    color: #bb0019;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+}
+
+#menu li a:hover {
+    background:#bb0019;
+    color: #ffffff;
+}
+
+#left {
+    border-top-left-radius: 20px;
+}
+
+#right {
+    border-top-right-radius: 20px;
+}
+
+/* Article */
+#article {
+	background-color: rgba(0, 0, 0, 0.801);
+	width:800px;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+#article p {
+    color:rgb(189, 91, 91);
+    margin: auto;
+    text-align: center;
+}
+
+/* Footer */
+
+#footer {
+	background:#000000c5;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#footer a {
+	text-decoration:none;
+	color: white;
+	font-size:15px;
+	font-weight:bold;
+}
