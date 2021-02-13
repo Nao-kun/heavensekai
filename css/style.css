@@ -84,6 +84,7 @@ body {
 
 #article p {
     color:rgb(218, 47, 47);
+    text-shadow: 1px 1px black;
     margin: auto;
     text-align: center;
 }
