@@ -38,7 +38,7 @@ body {
 #menu {
     margin: auto;
     margin-top: 40px;
-    width: 700px;
+    width: 680px;
 }
 
 #menu li {
@@ -86,7 +86,15 @@ body {
     color:rgb(218, 47, 47);
     text-shadow: 1px 1px black;
     margin: auto;
+    margin-bottom: 20px;
     text-align: center;
+    width: 600px;
+}
+
+#article video {
+    width: 70%;
+    position: relative;
+    left: 120px;
 }
 
 /* Footer */
