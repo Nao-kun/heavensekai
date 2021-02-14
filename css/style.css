@@ -124,8 +124,7 @@ p {
 #footer {
 	background: black;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    line-height:40px;
     padding-left: 20px;
 }
 
