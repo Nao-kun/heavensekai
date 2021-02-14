@@ -22,7 +22,7 @@ p {
 
 /* Header */
 #header {
-    background: url("../img/favicon.png") left 20px top 15px rgba(0, 0, 0, 0.700) fixed no-repeat;
+    background: url("../img/favicon.png") left 20px top 15px rgba(0, 0, 0, 0.700) no-repeat;
     background-size: 10%;
     padding: 30px;
     margin: auto;
