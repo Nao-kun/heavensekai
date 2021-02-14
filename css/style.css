@@ -10,6 +10,15 @@ body {
     margin: 0px;
     font-family:'Oswald', sans-serif;
     height: 100%;
+    cursor: url("../cur/arr-pointer.cur"), default;
+}
+
+a {
+    cursor: url("../cur/arr-link.cur"), pointer;
+}
+
+p {
+    cursor: url("../cur/arr-text.cur"), text;
 }
 
 /* Header */
