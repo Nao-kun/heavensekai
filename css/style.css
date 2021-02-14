@@ -5,7 +5,7 @@ html {
 
 /* Body */
 body {
-    background:url("../img/background.jpg") black fixed no-repeat;
+    background:url("../img/background.jpg") black fixed repeat;
     margin: 0px;
     font-family:'Oswald', sans-serif;
     height: 100%;
@@ -22,8 +22,8 @@ p {
 
 /* Header */
 #header {
-    background: url("../img/favicon.png") left 20px top 15px rgba(0, 0, 0, 0.700) no-repeat;
-    background-size: 10%;
+    background: url("../img/favicon.png") left 20px top 12px rgba(0, 0, 0, 0.700) no-repeat;
+    background-size: 140px;
     padding: 30px;
     margin: auto;
     border-bottom: 2px solid firebrick;
@@ -101,7 +101,7 @@ p {
 /* Article */
 #article {
 	background: rgba(0, 0, 0, 0.700);
-	width:800px;
+	width:65%;
     height: 100%;
     margin: auto;
     padding: 10px;
@@ -113,12 +113,18 @@ p {
     text-shadow: 2px 2px black;
     margin: auto;
     margin-bottom: 20px;
-    text-align: center;
     width: 600px;
 }
 
+#article p.center {
+    text-align: center;
+}
+
+#article p.justify {
+    text-align: justify;
+}
+
 #article iframe {
-    margin-left: 120px;
     margin-bottom: 20px;
 }
 
