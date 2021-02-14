@@ -99,7 +99,7 @@ p {
 #article {
 	background: rgba(0, 0, 0, 0.801);
 	width:800px;
-    height: auto;
+    height: 100%;
     margin: auto;
     padding: 10px;
     padding-top: 20px;
