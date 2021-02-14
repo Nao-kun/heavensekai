@@ -126,6 +126,7 @@ p {
 
 #article iframe {
     margin-bottom: 20px;
+    border: 0px;
 }
 
 /* Footer */
