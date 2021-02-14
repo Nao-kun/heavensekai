@@ -5,8 +5,7 @@ html {
 
 /* Body */
 body {
-    background:url("../img/background.png") black left -50px fixed no-repeat;
-    background-size: 100%;
+    background:url("../img/background.jpg") black fixed no-repeat;
     margin: 0px;
     font-family:'Oswald', sans-serif;
     height: 100%;
@@ -23,11 +22,11 @@ p {
 
 /* Header */
 #header {
-    background: url("../img/favicon.png") left 20px top 15px rgba(0, 0, 0, 0.801) no-repeat;
+    background: url("../img/favicon.png") left 20px top 15px rgba(0, 0, 0, 0.700) fixed no-repeat;
     background-size: 10%;
     padding: 30px;
     margin: auto;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid firebrick;
 }
 
 #header h1 {
@@ -49,6 +48,7 @@ p {
 #menu {
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 42px;
     width: 680px;
 }
 
@@ -70,6 +70,7 @@ p {
     font-size: 13px;
     position: relative;
     bottom: 10px;
+    border-top: solid 2px darkred;
 }
 
 #menu li a:hover {
@@ -89,15 +90,17 @@ p {
 
 #left {
     border-top-left-radius: 20px;
+    border-left: solid 2px darkred;
 }
 
 #right {
     border-top-right-radius: 20px;
+    border-right: solid 2px darkred;
 }
 
 /* Article */
 #article {
-	background: rgba(0, 0, 0, 0.801);
+	background: rgba(0, 0, 0, 0.700);
 	width:800px;
     height: 100%;
     margin: auto;
@@ -124,8 +127,9 @@ p {
 #footer {
 	background: black;
     margin: auto;
-    line-height:40px;
+    line-height: 40px;
     padding-left: 20px;
+    border-top: 2px solid firebrick;
 }
 
 #footer a {
