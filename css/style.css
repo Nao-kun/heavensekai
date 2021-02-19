@@ -100,8 +100,8 @@ p {
 
 /* Article */
 #article {
-	background: rgba(0, 0, 0, 0.700);
-	width:65%;
+    background: rgba(0, 0, 0, 0.700);
+    width:65%;
     height: 100%;
     margin: auto;
     padding: 10px;
@@ -132,16 +132,26 @@ p {
 /* Footer */
 
 #footer {
-	background: black;
+    background: black;
     margin: auto;
     line-height: 40px;
     padding-left: 20px;
     border-top: 2px solid firebrick;
+    height: 40px;
 }
 
 #footer a {
-	text-decoration:none;
-	color: darkred;
-	font-size:15px;
-	font-weight:bold;
+    text-decoration:none;
+    color: darkred;
+    font-size:15px;
+    font-weight:bold;
+}
+
+#copyright {
+    width: 150px;
+    color: darkred;
+    position: relative;
+    bottom: 40px;
+    margin: auto;
+    font-size: 12px;
 }
